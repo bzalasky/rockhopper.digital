@@ -1,0 +1,80 @@
+@import 'variables.css';
+
+html {
+  font-size: 19px;
+  line-height: 29px;
+}
+
+body {
+  font-family: var(--rockhopper-serif);
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 29px;
+  margin: 0;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, small {
+  font-family: var(--rockhopper-sans);
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  color: var(--black-200);
+}
+
+h1, .h1 {
+  color: var(--black-200);
+  font-size: 53px;
+  line-height: 58px;
+  margin-top: 29px;
+  margin-bottom: 29px;
+  text-align: center;
+}
+
+h2, .h2 {
+  color: var(--black-200);
+  font-family: var(--rockhopper-serif);
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 29px;
+  margin-top: 29px;
+  margin-bottom: 19px;
+  text-align: left;
+}
+
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0px;
+  margin-bottom: 29px;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+
+strong, b {
+  color: var(--black-200);
+}
+
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
