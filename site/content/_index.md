@@ -1,8 +1,9 @@
 # Let's Build Your Product<span class="dot">.</span>
 
-Hello, my name is Benjamin Zalasky. Do you have an idea for an app, yet don't
-know how to build it on your own? Rockhopper Digital is a **digital product
-consultancy** that solves problems like this with design and technology.
+Hello, my name is Benjamin Zalasky. Do you have an idea for an app that solves a
+problem, yet don't know how to build it on your own? Rockhopper Digital is a
+**digital product consultancy** that solves problems like this with design and
+technology.
 
 Over the last eight years, I've helped my clients design, build and market
 **software products** and **e-commerce businesses** with uncompromising
@@ -49,16 +50,31 @@ That said, customer development doesn't always segue neatly into product
 development. By taking the time to anchor your solution to a problem that a real
 customer is dealing with, you'll avoid assuming needless risk.
 
-
-
 ## Gather insights from real customers<span class="dot">.</span>
+
+One of the reasons people often suggest solving a problem you have yourself is
+that it's a shortcut. This can be good advice depending on your problem and
+product. Nevertheless, it's always a good idea to gather broader insights into
+your customers' motivations given the opportunity. 
+
+You'll need to create these opportunities for yourself. Here are some practical
+strategies for finding customers to talk to:
+
+  * If you have consulting relationships with potential customers, leverage 
+    these first
+    
+  * Reach out to connections in your social networks that may have exposure to
+    the problem you're solving
+    
+  * Expand your network of relevant customer contacts by cultivating an
+    audience, whether by speaking, writing, or both
 
 Idiosyncratic belief and passion are often at the heart of brilliance. They are
 also barriers that can feed your own echo chamber. Don't fall victim to this.
 External perspectives lend insight into the alignment of your product in the
 marketplace, balancing raw, creative effort with instructive guidance. However,
 time spent reflecting alone on your discussions with others shouldn't be
-discounted.
+discounted. 
 
 ## Develop a product hypothesis<span class="dot">.</span>
 

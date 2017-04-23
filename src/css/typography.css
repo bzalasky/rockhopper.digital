@@ -42,7 +42,7 @@ h2, .h2 {
   text-align: left;
 }
 
-p, ul, ol, pre, table, blockquote {
+p, pre, table, blockquote {
   margin-top: 0px;
   margin-bottom: 19px;
 }
