@@ -13,7 +13,11 @@ body {
 main {
   flex: 1;
   margin: 0 auto 53px;
-  width: 580px;
+  width: var(--content-width);
+
+  @media (--small-viewport) {
+    width: 90%;
+  }
 }
 
 header, footer {
@@ -29,6 +33,10 @@ header {
 .line {
   border: 1px dashed var(--light-gray-100);
   width: 145px;
+
+  @media (--small-viewport) {
+    width: 25%;
+  }
 }
 
 .logo {
@@ -89,11 +97,10 @@ h1 {
   margin-bottom: 40px;
   position: relative;
 
-  & .bar {
-    left: 0;
-    position: absolute;
-    bottom: -11px;
-    width: 53px;
+  @media (--small-viewport) {
+    display: block;
+    margin: 29px auto 40px;
+    width: 320px;
   }
 }
 

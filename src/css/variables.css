@@ -28,4 +28,7 @@
 
   --selected-font-color: var(--white-100);
   --selected-background-color: var(--green-300);
+
+  --content-width: 580px;
+  @custom-media --small-viewport (max-width: 640px);
 }
