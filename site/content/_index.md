@@ -8,4 +8,3 @@ design and technology.
 Over the last eight years, I've helped my clients design, build and market
 **software products** and **e-commerce businesses** with uncompromising
 craftsmanship. Now, I'd like to help you design and build your product.
-
