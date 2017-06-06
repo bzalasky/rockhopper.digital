@@ -1,25 +1,27 @@
 <div class="cta-form-container">
-  <form class="cta-form" name="cta-form" action="cta-form" netlify netlify-honeypot="bot-field">
+  <form class="cta-form" name="cta-form" action="submit" netlify netlify-honeypot="bot-field">
     <h2 class="cta-heading">Start a project with Rockhopper Digital<span class="dot">.</span></h2>
+
+    <p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
 
     <div class="cta-flex-group">
       <small>What's your company or project name?</small>
-		  <input type="text" name="fields[project_name]" value="">
+		  <input type="text" name="project_name">
     </div>
 
     <div class="cta-flex-group">
       <small>What's your name?</small>
-		  <input type="text" name="fields[name]" value="">
+		  <input type="text" name="name">
     </div>
 
     <div class="cta-flex-group">
       <small>What's your email address?</small>
-      <input type="email" name="fields[email]" value="">
+      <input type="email" name="email">
     </div>
 
     <div class="cta-flex-group">
       <small>What's your monthly budget?</small>
-      <select name="fields[monthly_budget]">
+      <select name="monthly_budget">
         <option value="1k-5k">$1K – $5K</option>
         <option value="5k-10k">$5K – $10K</option>
         <option value="10k+">$10K +</option>
