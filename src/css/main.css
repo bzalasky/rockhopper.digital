@@ -219,6 +219,10 @@ button, .button {
   & input {
     display: block;
   }
+
+  & select {
+    margin-left: 9.5px;
+  }
 }
 
 .cta-heading {
