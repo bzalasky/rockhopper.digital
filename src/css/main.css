@@ -213,7 +213,7 @@ button, .button {
   }
 
   & small {
-    display: inline-block;
+    display: inline;
   }
 
   & input {
@@ -222,6 +222,11 @@ button, .button {
 
   & select {
     margin-left: 9.5px;
+
+    @media (--small-viewport) {
+      margin-left: 0;
+      width: 100%;
+    }
   }
 }
 
