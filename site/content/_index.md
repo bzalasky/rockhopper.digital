@@ -1,4 +1,4 @@
-# Let's Build Your Product<span class="dot">.</span>
+<h1>Let's Build Your Product<span class="dot">.</span></h1>
 
 Hello, my name is Benjamin Zalasky. Do you have an idea for an app that solves a
 problem, yet don't have the time or know-how to build it on your own? Rockhopper
