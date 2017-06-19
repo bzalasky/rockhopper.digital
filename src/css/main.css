@@ -29,7 +29,6 @@ body {
   height: 5px;
 
   &.inner {
-
     height: 2px;
   }
 }
