@@ -20,7 +20,8 @@
 
   --blue-300: #36b6be;
 
-  --gray-200: #515E65;
+  --gray-200: #424c52;
+  --gray-300: #6f818b;
   --gray-500: #e9ecee;
   --gray-600: #f3f4f5;
   --gray-700: #fcfcfd;
@@ -36,7 +37,7 @@
   --link-color: var(--font-color);
   --link-visited-color: var(--font-color);
 
-  --content-width: 600px;
+  --content-width: 700px;
 
   --base-duration: 300ms;
   --base-timing: ease;

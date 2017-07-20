@@ -1,8 +1,10 @@
 <h1>Let’s&nbsp;Build Your&nbsp;Product<span class="dot">.</span></h1>
 
+<p class="lede">
 Hello, my name is <a href="https://twitter.com/bzalasky">Benjamin Zalasky</a>.
-Do you need help building your product? Rockhopper Digital is a digital product
+Do you need help building your product? Rockhopper Digital</em> is a digital product
 consultancy that helps startups ship and market web software.
+</p>
 
 Great products deliver great outcomes. They’re consistently indispensable. To
 get here, you need to understand the relationships between your potential
