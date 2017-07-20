@@ -3,7 +3,7 @@
 <p class="lede">
 Hello, my name is <a href="https://twitter.com/bzalasky">Benjamin Zalasky</a>.
 Do you need help building your product? Rockhopper Digital</em> is a digital product
-consultancy that helps startups ship and market web software.
+consultancy that crafts web&nbsp;<em>&</em>&nbsp;mobile software.
 </p>
 
 Great products deliver great outcomes. They’re consistently indispensable. To
