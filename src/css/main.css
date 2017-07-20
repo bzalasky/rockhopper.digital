@@ -154,14 +154,15 @@ button, .button {
   }
 }
 
-.cta-flex-group {
+.cta-form-group {
   margin-bottom: 1.25rem;
 
-  & input, & textarea {
+  & input, & textarea, & select {
     background: var(--gray-700);
     border: 1px solid var(--gray-500);
     border-radius: 2px;
     box-sizing: border-box;
+    outline: none;
     padding: 4px 8px;
     transition: background var(--base-duration) var(--base-timing);
     width: 100%;
