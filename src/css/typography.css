@@ -12,7 +12,7 @@ body {
   text-rendering: optimizeLegibility;
 
   @media (--small-viewport) {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 
