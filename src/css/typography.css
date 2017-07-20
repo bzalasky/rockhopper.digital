@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  color: var(--red-500);
+  color: var(--red-600);
   font-family: var(--rockhopper-sans);
   line-height: 1;
   margin: 0 0 1.25rem;
@@ -48,15 +48,15 @@ p + p, ol + p, .indent {
 }
 
 a {
-  box-shadow: inset 0 -4px 0 var(--gray-500);
-  color: var(--gray-200);
+  box-shadow: inset 0 -2px 0 var(--gray-400);
+  color: var(--red-100);
   text-decoration: none;
-  border-bottom: 1px solid var(--gray-500);
+  border-bottom: 1px solid var(--gray-400);
   transition: background var(--base-duration) var(--base-timing);
 }
 
 a:hover {
-  background: var(--gray-500);
+  background: var(--gray-600);
 }
 
 small {
@@ -64,9 +64,13 @@ small {
 }
 
 .lede {
-  color: var(--gray-300);
+  color: var(--red-500);
   font-size: 28px;
   margin-bottom: 0.25rem;
+
+  & a {
+    color: var(--red-200);
+  }
 
   @media (--small-viewport) {
     font-size: 21px;
