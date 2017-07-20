@@ -1,80 +1,93 @@
 @import 'variables.css';
 
-html {
-  font-size: 19px;
-  line-height: 29px;
-}
-
 body {
   font-family: var(--rockhopper-serif);
-  font-size: 19px;
-  font-weight: 500;
-  line-height: 29px;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  font-kerning: normal;
+  font-size: 22px;
+  line-height: 1.45;
+  text-rendering: optimizeLegibility;
+
+  @media (--small-viewport) {
+    font-size: 19px;
+  }
+}
+
+h1 {
+  color: var(--red-500);
+  font-family: var(--rockhopper-sans);
+  line-height: 1;
+  margin: 0 0 1.25rem;
+}
+
+h2 {
+  color: var(--blue-300);
+  font-family: var(--rockhopper-sans);
+  -moz-font-feature-settings: "c2sc", "smcp";
+  -ms-font-feature-settings: "c2sc", "smcp";
+  -webkit-font-feature-settings: "c2sc", "smcp";
+  font-feature-settings: "c2sc", "smcp";
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+}
+
+p {
   margin: 0;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, small {
-  font-family: var(--rockhopper-sans);
+p + p, ol + p, .indent {
+  text-indent: 2.25rem;
+
+  @media (--small-viewport) {
+    text-indent: 1.5rem;
+  }
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  color: var(--black-200);
+a {
+  box-shadow: inset 0 -4px 0 var(--gray-500);
+  color: var(--red-200);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gray-500);
+  transition: background var(--base-duration) var(--base-timing);
 }
 
-h1, .h1 {
-  color: var(--black-200);
-  font-size: 53px;
-  line-height: 58px;
-  margin-top: 29px;
-  margin-bottom: 29px;
-  text-align: center;
+a:hover {
+  background: var(--gray-500);
 }
 
-h2, .h2 {
-  color: var(--black-200);
-  font-family: var(--rockhopper-serif);
-  font-size: 24px;
+small {
   font-style: italic;
-  font-weight: 500;
-  line-height: 29px;
-  margin-top: 29px;
-  margin-bottom: 19px;
-  text-align: left;
 }
 
-p, pre, table, blockquote {
-  margin-top: 0px;
-  margin-bottom: 19px;
+.small-caps {
+  -moz-font-feature-settings: "c2sc", "smcp";
+  -ms-font-feature-settings: "c2sc", "smcp";
+  -webkit-font-feature-settings: "c2sc", "smcp";
+  font-feature-settings: "c2sc", "smcp";
+  letter-spacing: 0.05em;
 }
 
-ul ul, ol ol, ul ol, ol ul {
-  margin-top: 0px;
-  margin-bottom: 0px;
+.tabular-figures {
+  -moz-font-feature-settings: "tnum";
+  -ms-font-feature-settings: "tnum";
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum";
 }
 
-hr, .hr {
-  border: 1px solid;
-  margin: -1px 0;
+.oldstyle-figures {
+  -moz-font-feature-settings: "onum";
+  -ms-font-feature-settings: "onum";
+  -webkit-font-feature-settings: "onum";
+  font-feature-settings: "onum";
 }
 
-a, b, i, strong, em, small, code {
-  line-height: 0;
-}
-
-strong, b {
-  color: var(--black-200);
-}
-
-sub, sup {
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -0.5em;
-}
-
-sub {
-  bottom: -0.25em;
+.lining-figures {
+  -moz-font-feature-settings: "lnum";
+  -ms-font-feature-settings: "lnum";
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
 }

@@ -1,12 +1,23 @@
 {{ partial "header" . }}
-<main>
-  <section class="content-section container">
-    {{ .Content }}
+
+  <section class="panel hero-section">
+    <div class="container logo-container">
+      <a class="logo h3" href="/">
+        <img src="/img/logo.svg">
+      </a>
+    </div>
+
+    <div class="container content-container">
+      {{ .Content }}
+    </div>
+
   </section>
-  <div class="body-border inner container"></div>
-  <section class="cta-section">
+
+  <section class="panel cta-section">
     {{ partial "cta-form" . }}
   </section>
-  <div class="body-border inner container"></div>
 </main>
+
 {{ partial "footer" . }}
+
+

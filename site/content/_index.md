@@ -1,10 +1,14 @@
-<h1>Let's Build Your Product<span class="dot">.</span></h1>
+<h1>Let’s&nbsp;Build Your&nbsp;Product<span class="dot">.</span></h1>
 
-Hello, my name is Benjamin Zalasky. Do you have an idea for an app that solves a
-problem, yet don't have the time or know-how to build it on your own? Rockhopper
-Digital is a **digital product consultancy** that solves problems like this with
-design and technology.
+Hello, my name is <a href="https://twitter.com/bzalasky">Benjamin Zalasky</a>.
+Do you need help building your product? Rockhopper Digital is a digital product
+consultancy that helps startups ship and market web software.
 
-Over the last eight years, I've helped my clients design, build and market
-**software products** and **e-commerce businesses** with uncompromising
-craftsmanship. Now, I'd like to help you design and build your product.
+Great products deliver great outcomes. They’re consistently indispensable. To
+get here, you need to understand the relationships between your potential
+customers, the problem you're solving, the solution you're introducing, and your
+ability to deliver that solution to market.
+
+Over the last eight years, I’ve helped my clients design, build and market
+software products and e-commerce businesses with uncompromising craftsmanship.
+Now, I’d like to help you design and build your product.

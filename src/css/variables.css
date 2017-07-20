@@ -1,42 +1,44 @@
 :root {
-  --rockhopper-serif: 'ff-meta-serif-web-pro', serif;
-  --rockhopper-sans: 'ff-meta-web-pro', sans-serif;
-  --rockhopper-mono: 'fira-mono', monospace;
+  --rockhopper-serif: 'freight-text-pro', serif;
+  --rockhopper-sans: 'sofia-pro', sans-serif;
+  --rockhopper-mono: 'anonymous-pro', monospace;
 
-  --black-100: #000;
-  --black-200: #1f1f1f;
-  --white-100: #fff;
+  --cream-300: #fffcf4;
+
   --red-100: #2d0e11;
   --red-200: #3a1216;
-  --pink-300: #ed2880;
-  --pink-200: #e0136f;
+  --red-300: #47161b;
+  --red-500: #541a20;
+
   --pink-100: #d11167;
+  --pink-200: #e0136f;
+  --pink-300: #ed2880;
+  --pink-500: #fef4f8;
+
   --green-100: #1a352d;
   --green-300: #1aa748;
+
   --blue-300: #36b6be;
 
-  --gray-100: #3d3e44;
-  --gray-300: #c0c0c0;
+  --gray-200: #515E65;
+  --gray-500: #e9ecee;
+  --gray-600: #f3f4f5;
+  --gray-700: #fcfcfd;
 
   --light-gray-100: #ddd;
   --light-gray-200: #e4e4e4;
   --light-gray-300: #f0f0f0;
   --light-gray-400: #f5f5f5;
   --light-gray-500: #fafafa;
-  --light-gray-600: #fdfdfd;
 
-  --font-color: var(--gray-100);
+  --font-color: var(--gray-200);
 
   --link-color: var(--font-color);
-  --link-hover-color: var(--green-300);
   --link-visited-color: var(--font-color);
 
-  --selected-font-color: var(--white-100);
-  --selected-background-color: var(--green-300);
+  --content-width: 600px;
 
-  --content-width: 580px;
-
-  --base-duration: 150ms;
+  --base-duration: 300ms;
   --base-timing: ease;
 
   @custom-media --small-viewport (max-width: 640px);

@@ -7,121 +7,49 @@
 }
 
 body {
+  background: var(--cream-300);
   color: var(--font-color);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 0 0 19px;
 }
 
 .container {
   flex: 1;
-  margin: 0 auto 53px;
+  margin: 2.25rem auto;
+  max-width: 88%;
   width: var(--content-width);
 
   @media (--small-viewport) {
-    width: 90%;
-  }
-}
-
-.body-border {
-  background: linear-gradient(to right, var(--red-100), var(--blue-300), var(--pink-300));
-  height: 5px;
-
-  &.inner {
-    height: 2px;
-  }
-}
-
-header, footer {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-header {
-  align-content: space-between;
-  background: var(--white-100);
-  padding-top: 29px;
-}
-
-.line {
-  border: 1px dashed var(--light-gray-200);
-  width: 145px;
-
-  @media (--small-viewport) {
-    width: 25%;
+    margin: 1.5rem auto;
+    width: 88%;
   }
 }
 
 .logo {
-  color: var(--black-100);
-  padding: 9.5px 29px;
+  border: 0;
+  box-shadow: none;
+  outline: 0;
+  outline-offset: 0;
   text-decoration: none;
 
-  &.h3 {
-    margin-top: 9.5px;
-  }
-
-  &:hover, &:visited, &:active {
-    color: var(--gray-100);
-  }
-
-  & figure {
-    line-height: 1;
-    margin: 0;
+  &:hover {
+    background: transparent;
   }
 
   & img {
-    height: 88px;
+    height: 104pt;
     user-select: none;
+
+    @media (--small-viewport) {
+      height: 96pt
+    }
   }
 
   & span {
     display: inline-block;
     user-select: none
   }
-
-  & .squares {
-    display: flex;
-    justify-content: center;
-    margin-top: 9.5px;
-  }
-
-  & .square {
-    height: 9.5px;
-    margin: 0 3.16665px;
-    width: 9.5px;
-
-    &.red {
-      background: var(--red-100);
-    }
-
-    &.blue {
-      background: var(--blue-300);
-    }
-
-    &.pink {
-      background: var(--pink-300);
-    }
-  }
-}
-
-h1 {
-  display: inline-block;
-  margin-bottom: 40px;
-  position: relative;
-
-  @media (--small-viewport) {
-    display: block;
-    font-size: 48px;
-    margin: 29px auto 40px;
-    width: 288px;
-  }
-}
-
-p + p, ol + p, .indent {
-  text-indent: 1.5em;
 }
 
 ul {
@@ -136,12 +64,6 @@ ul {
   & p {
     display: inline;
   }
-}
-
-li::before {
-  content: "✓ ";
-  color: var(--pink-300);
-  padding-right: 19px;
 }
 
 blockquote, q {
@@ -177,7 +99,7 @@ button, .button {
   background-color: var(--pink-300);
   border: 0;
   border-radius: 2px;
-  color: white;
+  color: var(--cream-300);
   cursor: pointer;
   display: inline-block;
   font-family: var(--rockhopper-sans);
@@ -185,7 +107,7 @@ button, .button {
   font-weight: 700;
   -webkit-font-smoothing: antialiased;
   line-height: 1;
-  padding: 9.5px 19px;
+  padding: 16px 38px;
   text-align: center;
   text-decoration: none;
   transition: background var(--base-duration) var(--base-timing);
@@ -195,7 +117,7 @@ button, .button {
 
   &:hover {
     background-color: var(--pink-200);
-    color: white;
+    color: var(--cream-300);
   }
 
   &:focus {
@@ -213,17 +135,7 @@ button, .button {
   }
 }
 
-.cta-section {
-  margin-top: 29px;
-}
-
 .cta-form-container {
-  border-radius: 2px;
-
-  & small, & input {
-    margin-bottom: 19px
-  }
-
   & small {
     display: inline;
   }
@@ -233,7 +145,7 @@ button, .button {
   }
 
   & select {
-    margin-left: 9.5px;
+    margin-left: 8px;
 
     @media (--small-viewport) {
       margin-left: 0;
@@ -247,14 +159,15 @@ button, .button {
 }
 
 .cta-flex-group {
-  margin-bottom: 29px;
+  margin-bottom: 1.25rem;
 
   & input, & textarea {
-    background: var(--light-gray-500);
-    border: 1px solid var(--light-gray-100);
+    background: var(--gray-700);
+    border: 1px solid var(--gray-500);
     border-radius: 2px;
     box-sizing: border-box;
-    padding: 6px 12px;
+    padding: 4px 8px;
+    transition: background var(--base-duration) var(--base-timing);
     width: 100%;
 
     &:focus {
@@ -268,10 +181,16 @@ button, .button {
 .cta-button-container {
   display: flex;
   justify-content: flex-start;
-  margin-top: 29px;
+  margin-top: 2.25rem;
 }
 
-footer {
-  color: var(--black-200);
-  padding: 0 0 29px;
+footer.container {
+  display: flex;
+  margin: 4.5rem auto 2.25rem;
+
+  & small {
+    font-family: var(--rockhopper-sans);
+    font-size: 13px;
+    font-style: normal;
+  }
 }
