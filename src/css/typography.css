@@ -4,6 +4,11 @@
   background: var(--gray-600);
 }
 
+/**
+* Default:        19px · 22px · 28px · 42px
+* Small Viewport: 17px · 22px · 36px
+***/
+
 body {
   font-family: var(--rockhopper-serif);
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -75,6 +80,10 @@ a:hover {
 hr {
   border-top: 1px solid var(--gray-400);
   margin: 1.25em 0 2.25rem;
+
+  @media (--small-viewport) {
+    margin: 1.25em 0 1.25rem;
+  }
 }
 
 small {
@@ -84,7 +93,7 @@ small {
 
 
   @media (--small-viewport) {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 
