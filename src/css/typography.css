@@ -12,6 +12,7 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
   font-kerning: normal;
   font-size: 22px;
+  font-weight: 400;
   line-height: 1.45;
   text-rendering: optimizeLegibility;
 
@@ -24,6 +25,7 @@ h1 {
   color: var(--red-600);
   font-family: var(--rockhopper-sans);
   font-size: 42px;
+  font-weight: 600;
   line-height: 1;
   margin: 0 0 1.25rem;
 
@@ -41,7 +43,7 @@ h2 {
   -webkit-font-feature-settings: "c2sc", "smcp";
   font-feature-settings: "c2sc", "smcp";
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 0.05em;
   line-height: 1;
 }
@@ -89,7 +91,7 @@ small {
 .lede {
   color: var(--red-500);
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.35;
   margin-bottom: 0.25rem;
 
