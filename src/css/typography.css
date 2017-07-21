@@ -6,7 +6,7 @@
 
 /**
 * Default:        19px · 22px · 28px · 42px
-* Small Viewport: 17px · 22px · 36px
+* Small Viewport: 17px · 24px · 36px
 ***/
 
 body {
@@ -47,10 +47,14 @@ h2 {
   -ms-font-feature-settings: "c2sc", "smcp";
   -webkit-font-feature-settings: "c2sc", "smcp";
   font-feature-settings: "c2sc", "smcp";
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 400;
   letter-spacing: 0.05em;
   line-height: 1;
+
+  @media (--small-viewport) {
+    font-size: 24px;
+  }
 }
 
 p {
