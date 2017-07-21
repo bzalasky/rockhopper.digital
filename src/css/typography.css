@@ -89,6 +89,7 @@ small {
 .lede {
   color: var(--red-500);
   font-size: 30px;
+  font-weight: bold;
   line-height: 1.35;
   margin-bottom: 0.25rem;
 
