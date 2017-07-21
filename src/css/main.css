@@ -2,7 +2,7 @@
 @import 'variables.css';
 @import 'typography.css';
 
-.hidden {
+.hidden, .wf-loading main, .wf-loading footer {
   display: none;
 }
 
