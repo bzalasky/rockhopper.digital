@@ -2,8 +2,12 @@
 @import 'variables.css';
 @import 'typography.css';
 
-.hidden, .wf-loading main, .wf-loading footer {
+.hidden {
   display: none;
+}
+
+.wf-loading main, .wf-loading footer {
+  visibility: hidden;
 }
 
 body {
