@@ -108,6 +108,10 @@ small {
     color: var(--red-200);
   }
 
+  & span {
+    color: var(--pink-300);
+  }
+
   @media (--small-viewport) {
     font-size: 22px;
   }
