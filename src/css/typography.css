@@ -1,5 +1,9 @@
 @import 'variables.css';
 
+::selection {
+  background: var(--gray-600);
+}
+
 body {
   font-family: var(--rockhopper-serif);
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
