@@ -18,7 +18,7 @@ body {
   font-kerning: normal;
   font-size: 22px;
   font-weight: 400;
-  line-height: 1.45;
+  line-height: 1.5;
   text-rendering: optimizeLegibility;
 
   @media (--small-viewport) {
@@ -105,7 +105,7 @@ small {
   color: var(--red-500);
   font-size: 28px;
   font-weight: 600;
-  line-height: 1.35;
+  line-height: 1.45;
   margin-bottom: 0.25rem;
 
   & a {
