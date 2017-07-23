@@ -2,7 +2,7 @@
 
 <p class="lede">
 Hello, my name is <a href="https://twitter.com/bzalasky">Benjamin Zalasky</a>.
-Do&nbsp;you need help building your product? Rockhopper Digital</em> is a digital product
+Do&nbsp;you need help building your product? Rockhopper Digital is a digital product
 consultancy that crafts <span>web</span>&nbsp;<em>&</em>&nbsp;<span>mobile</span> software.
 </p>
 
