@@ -30,6 +30,7 @@
     "file-loader": "^0.9.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "gulp-htmlmin": "^3.0.0",
     "gulp-postcss": "^6.1.1",
     "gulp-util": "^3.0.7",
     "imports-loader": "^0.6.5",
@@ -39,8 +40,5 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "whatwg-fetch": "^1.0.0"
-  },
-  "devDependencies": {
-    "gulp-htmlmin": "^3.0.0"
   }
 }
