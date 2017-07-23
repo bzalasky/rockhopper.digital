@@ -4,6 +4,7 @@ import gutil from 'gulp-util';
 import postcss from 'gulp-postcss';
 import cssImport from 'postcss-import';
 import cssnext from 'postcss-cssnext';
+import htmlmin from 'gulp-htmlmin';
 import BrowserSync from 'browser-sync';
 import webpack from 'webpack';
 import webpackConfig from './webpack.conf';
@@ -21,7 +22,7 @@ gulp.task('hugo', (cb) => {
 
 gulp.task('hugo-preview', (cb) => buildSite(cb, ['--buildDrafts', '--buildFuture']));
 
-gulp.task('build', ['css', 'js', 'hugo']);
+gulp.task('build', ['css', 'js', 'hugo', 'minify']);
 
 gulp.task('build-preview', ['css', 'js', 'hugo-preview']);
 
@@ -31,6 +32,12 @@ gulp.task('css', () => (
     .pipe(gulp.dest('./dist/css'))
     .pipe(browserSync.stream())
 ));
+
+gulp.task('minify', function() {
+  return gulp.src('dist/index.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('dist'));
+});
 
 gulp.task('js', (cb) => {
   const myConfig = Object.assign({}, webpackConfig);
