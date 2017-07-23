@@ -34,9 +34,9 @@ gulp.task('css', () => (
 ));
 
 gulp.task('minify', function() {
-  return gulp.src('dist/index.html')
+  return gulp.src('./dist/index.html')
     .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('js', (cb) => {
