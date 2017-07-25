@@ -43,55 +43,14 @@ body {
 
   & img {
     height: 104pt;
+    outline: 0;
+    outline-offset: 0;
     user-select: none;
 
     @media (--small-viewport) {
       height: 96pt
     }
   }
-
-  & span {
-    display: inline-block;
-    user-select: none
-  }
-}
-
-ul {
-  list-style: none;
-  margin-bottom: 0;
-  padding: 0;
-
-  & li {
-    display: flex;
-  }
-
-  & p {
-    display: inline;
-  }
-}
-
-blockquote, q {
-  quotes: "“" "”" "‘" "’";
-
-  &:before, &:after {
-    color: var(--pink-300);
-  }
-
-  &:before {
-    content: open-quote;
-  }
-
-  & p {
-    display: inline;
-  }
-
-  &:after {
-    content: close-quote;
-  }
-}
-
-blockquote {
-  font-weight: bold;
 }
 
 .dot {
@@ -161,7 +120,7 @@ button, .button {
 .cta-form-group {
   margin-bottom: 1.25rem;
 
-  & input, & textarea, & select {
+  & input, & textarea {
     background: var(--gray-700);
     border: 1px solid var(--gray-500);
     border-radius: 2px;
