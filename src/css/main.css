@@ -19,7 +19,6 @@ body {
 }
 
 .container {
-  flex: 1;
   margin: 2.25rem auto;
   max-width: 84%;
   width: var(--content-width);
@@ -27,6 +26,16 @@ body {
   @media (--small-viewport) {
     margin: 1.5rem auto;
     width: 84%;
+  }
+}
+
+header {
+  & .container {
+    margin-bottom: 0;
+
+    @media (--small-viewport) {
+      margin-bottom: 0;
+    }
   }
 }
 
