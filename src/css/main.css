@@ -62,10 +62,6 @@ header {
   }
 }
 
-.dot {
-  color: var(--pink-300);
-}
-
 button, .button {
   appearance: none;
   background-color: var(--pink-300);
