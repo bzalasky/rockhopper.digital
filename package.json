@@ -1,7 +1,8 @@
 {
-  "name": "victor-hugo",
+  "name": "rockhopper.digital",
   "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
+  "repository": "git@github.com:bzalasky/rockhopper.digital.git",
+  "description": "Rockhopper Digital is a digital product consultancy that crafts web & mobile software.",
   "main": "index.js",
   "scripts": {
     "hugo": "gulp hugo",
@@ -24,6 +25,7 @@
     "babel-register": "^6.11.6",
     "browser-sync": "^2.13.0",
     "css-loader": "^0.23.1",
+    "copy-webpack-plugin": "^4.0.1",
     "eslint": "^3.1.1",
     "eslint-plugin-import": "^1.11.1",
     "exports-loader": "^0.6.3",
