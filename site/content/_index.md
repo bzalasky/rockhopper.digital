@@ -1,5 +1,3 @@
-<h1>Let’s&nbsp;Build Your&nbsp;Product</h1>
-
 <p class="lede"> Hello, my name is Benjamin Zalasky. Do&nbsp;you need help
 building your product? Rockhopper Digital is a product consultancy that crafts
 <span>web</span>&nbsp;<em>&</em>&nbsp;<span>mobile</span> software.</p>

@@ -3,6 +3,10 @@
   --rockhopper-sans: 'freight-sans-pro', sans-serif;
   --rockhopper-mono: 'anonymous-pro', monospace;
 
+  --cream-025: #aba89e;
+  --cream-050: #bbb8b0;
+  --cream-100: #dddad2;
+  --cream-200: #eeebe3;
   --cream-300: #fffcf4;
 
   --red-100: #2d0e11;
@@ -44,5 +48,5 @@
   --base-duration: 300ms;
   --base-timing: ease;
 
-  @custom-media --small-viewport (max-width: 640px);
+  @custom-media --small-viewport (max-width: 480px);
 }

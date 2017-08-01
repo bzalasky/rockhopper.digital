@@ -70,15 +70,20 @@ p + p, ol + p, .indent {
 }
 
 a {
-  box-shadow: inset 0 -2px 0 var(--gray-400);
+  border-color: var(--cream-200);
   color: var(--red-100);
   text-decoration: none;
-  border-bottom: 1px solid var(--gray-400);
-  transition: background var(--base-duration) var(--base-timing);
+  transition: all var(--base-duration) var(--base-timing);
 }
 
 a:hover {
-  background: var(--gray-600);
+  box-shadow: inset 0 -2px 0 var(--cream-100);
+  border-bottom: 1px solid var(--cream-100);
+}
+
+.dot {
+  color: var(--pink-300);
+  padding: 0 .45em;
 }
 
 hr {

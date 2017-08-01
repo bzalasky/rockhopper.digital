@@ -4,6 +4,7 @@ import gutil from 'gulp-util';
 import postcss from 'gulp-postcss';
 import cssImport from 'postcss-import';
 import cssnext from 'postcss-cssnext';
+import rucksack from 'rucksack-css';
 import htmlmin from 'gulp-htmlmin';
 import BrowserSync from 'browser-sync';
 import webpack from 'webpack';
@@ -28,7 +29,7 @@ gulp.task('build-preview', ['css', 'js', 'hugo-preview']);
 
 gulp.task('css', () => (
   gulp.src('./src/css/*.css')
-    .pipe(postcss([cssImport({from: './src/css/main.css'}), cssnext()]))
+    .pipe(postcss([cssImport({from: './src/css/main.css'}), cssnext(), rucksack()]))
     .pipe(gulp.dest('./dist/css'))
     .pipe(browserSync.stream())
 ));
