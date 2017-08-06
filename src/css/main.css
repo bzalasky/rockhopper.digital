@@ -18,6 +18,10 @@ body {
   min-height: 100vh;
 }
 
+main {
+  flex: 1;
+}
+
 .container {
   margin: 2.25rem auto;
   max-width: 84%;
@@ -95,6 +99,10 @@ nav {
 
   & li {
     padding: 0 .25rem;
+
+    @media (--small-viewport) {
+      padding: 0;
+    }
   }
 
   & a {
@@ -104,6 +112,10 @@ nav {
     &:focus {
       outline: 0;
       outline-offset: 0;
+    }
+
+    @media (--small-viewport) {
+      font-size: 17px;
     }
   }
 }
