@@ -31,7 +31,7 @@ body {
 
 header {
   & .container {
-    margin: 1rem auto;
+    margin: 2.25rem auto 1rem;
   }
 
   & nav {
@@ -39,8 +39,12 @@ header {
     margin: 0 auto;
 
     & .container {
+      margin-top: 0;
+    }
+
+    & .container ul {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       margin: 0 auto;
     }
   }
@@ -54,7 +58,9 @@ header {
 .logo {
   border: 0;
   box-shadow: none;
+  height: auto;
   text-decoration: none;
+  width: 100px;
 
   &:hover {
     background: transparent;
@@ -68,12 +74,8 @@ header {
   }
 
   & img {
-    height: 104pt;
+    height: auto;
     user-select: none;
-
-    @media (--small-viewport) {
-      height: 96pt;
-    }
   }
 }
 
@@ -86,9 +88,8 @@ nav {
   z-index: 1000;
 
   & ul {
-    justify-content: center;
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
   }
 
