@@ -1,14 +1,15 @@
 {{ partial "header" . }}
-  <section>
-    <div class="container content-container">
-      {{ .Content }}
-    </div>
-  </section>
+  <main>
+    <section>
+      <div class="container content-container">
+        {{ .Content }}
+      </div>
+    </section>
 
-  <section class="cta-section">
-    {{ partial "cta-form" . }}
-  </section>
-</main>
+    <section class="cta-section">
+      {{ partial "cta-form" . }}
+    </section>
+  </main>
 {{ partial "footer" . }}
 
 

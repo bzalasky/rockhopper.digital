@@ -6,8 +6,10 @@
   display: none;
 }
 
-.wf-loading main, .wf-loading footer {
-  visibility: hidden;
+.wf-loading {
+  & ul, & main {
+    visibility: hidden;
+  }
 }
 
 body {
@@ -99,10 +101,6 @@ nav {
 
   & li {
     padding: 0 .25rem;
-
-    @media (--small-viewport) {
-      padding: 0;
-    }
   }
 
   & a {
@@ -211,6 +209,10 @@ button, .button {
   margin-top: 2.25rem;
 }
 
+.not-found p {
+  text-align: center;
+}
+
 footer {
   background: rgba(var(--cream-200), 0.5);
   color: var(--cream-025);
@@ -219,6 +221,8 @@ footer {
   width: 100%;
 
   & .container {
+    display: flex;
+    justify-content: center;
   }
 
   & small {
