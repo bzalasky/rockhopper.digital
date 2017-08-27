@@ -1,0 +1,18 @@
+{{ partial "header" . }}
+<main>
+  <section>
+    <div class="container content-container">
+      {{ range .Data.Page }}
+        <article>
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <div class=sub-header>
+            {{ .Date.Format .Site.Params.dateform }} · {{ .ReadingTime }} minute read
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ partial "footer" . }}
+
+

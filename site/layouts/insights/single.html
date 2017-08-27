@@ -1,0 +1,21 @@
+{{ partial "document-head" }}
+<header class="single" >
+  {{ partial "nav" }}
+</header>
+<div class="container hero-container">
+  <h1>
+    {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
+  </h1>
+
+  <small class="sub-header">
+    {{ .Date.Format (.Site.Params.dateform | default "January 2006") }} · {{ .ReadingTime }} minute read
+  </small>
+</div>
+<main>
+  <section>
+    <div class="container content-container">
+      {{ .Content }}
+    </div>
+  </section>
+</main>
+{{ partial "footer" . }}

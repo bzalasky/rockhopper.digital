@@ -22,6 +22,11 @@ body {
 
 main {
   flex: 1;
+
+  & a {
+    color: var(--pink-100);
+    box-shadow: inset 0 -1px 0 var(--cream-100);
+  }
 }
 
 .container {
@@ -45,6 +50,7 @@ header {
     margin: 0 auto;
 
     & .container {
+      display: flex;
       margin-top: 0;
     }
 
@@ -56,9 +62,36 @@ header {
   }
 }
 
-.logo-container {
+.nav-icon {
+  display: none;
+
+  & img {
+    height: 44px;
+    width: 44px;
+  }
+}
+
+.single {
+  & .nav-icon {
+    display: block;
+
+    &:hover {
+      border: none;
+      box-shadow: none;
+    }
+  }
+}
+
+.hero-container {
+  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  height: 164px;
+  justify-content: flex-end;
+
+  & h1 {
+    text-align: center;
+  }
 }
 
 .logo {
