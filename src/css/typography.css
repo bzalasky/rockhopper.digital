@@ -60,6 +60,10 @@ h2 {
 
 p {
   margin: 0;
+
+  &.no-indent {
+    text-indent: 0;
+  }
 }
 
 p + p, ol + p, .indent {
@@ -127,13 +131,31 @@ small {
   }
 }
 
+blockquote {
+  margin: 1em 2.25rem;
+}
+
 main {
   & ol, & ul {
-    padding: 0 0 0 21px;
+    margin: 1rem 0;
+    padding: 0 21px 0;
+
+    @media (--small-viewport) {
+      padding: 0 18px 0;
+    }
   }
 
   & ul {
     list-style: square;
+  }
+
+  & li {
+    margin-bottom: 0.5rem;
+    padding-left: 15px;
+
+    @media (--small-viewport) {
+      padding-left: 9px;
+    }
   }
 }
 

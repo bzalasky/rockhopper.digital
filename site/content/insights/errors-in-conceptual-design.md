@@ -48,10 +48,12 @@ seductive one at that. There are two fundamental flaws with Paconius' spool:
   </li>
 </ol>
 
-As the oxen distanced themselves from the spool, it became less stable and was
-prone to running off the road, undercutting the economic efficiency of using
-fewer oxen. The problem of scaling the solution over long distances made things
-even worse for Paconius. He ended up in financial ruin.
+<p class="no-indent">
+  As the oxen distanced themselves from the spool, it became less stable and was
+  prone to running off the road, undercutting the economic efficiency of using
+  fewer oxen. The problem of scaling the solution over long distances made things
+  even worse for Paconius. He ended up in financial ruin.
+</p>
 
 <h2>The Folly of Competing Objectives</h2>
 
