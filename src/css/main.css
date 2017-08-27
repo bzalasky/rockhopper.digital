@@ -64,6 +64,7 @@ header {
 
 .nav-icon {
   display: none;
+  position: absolute;
 
   & img {
     height: 44px;
@@ -88,6 +89,7 @@ header {
   flex-direction: column;
   height: 164px;
   justify-content: flex-end;
+  margin-bottom: 16px;
 
   & h1 {
     text-align: center;
