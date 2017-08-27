@@ -1,6 +1,6 @@
 +++ 
 date = "2017-08-26T13:05:39-04:00" 
-subtitle = "" 
+subtitle = "There are at least four ways to build a product nobody wants." 
 tags = [] 
 title = "Empiricism in Product Development"
 +++
@@ -24,7 +24,6 @@ innovate. From your target market, to the problem your product solves, don't
 limit yourself with assumptions unless you've a compelling reason. There are
 times when assumptions are unavoidable, but that's ok as long as you recognize
  them.
-
 
 <h2>Fail to acknowledge external perspectives</h2>
 

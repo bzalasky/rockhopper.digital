@@ -50,4 +50,5 @@
   --base-timing: ease;
 
   @custom-media --small-viewport (max-width: 480px);
+  @custom-media --medium-viewport (max-width: 768px);
 }

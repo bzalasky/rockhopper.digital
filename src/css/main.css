@@ -59,6 +59,19 @@ header {
       justify-content: center;
       margin: 0 auto;
     }
+
+    @media(--medium-viewport) {
+      & .container {
+        height: 44px;
+        position: relative;
+      }
+
+      & .container ul {
+        margin: 0;
+        position: absolute;
+        right: 0;
+      }
+    }
   }
 }
 
@@ -84,15 +97,24 @@ header {
 }
 
 .hero-container {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  height: 164px;
+  height: 126px;
   justify-content: flex-end;
   margin-bottom: 16px;
 
+  &.logo-container {
+    align-items: center;
+    height: 164px;
+  }
+
   & h1 {
-    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  @media(--small-viewport) {
+    height: 84px;
   }
 }
 
@@ -155,6 +177,21 @@ nav {
 
 .content-container {
   margin-top: 1rem;
+}
+
+.article-list {
+  margin-top: 15px;
+}
+
+.list-item {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  & h2 {
+    margin: 0.5rem 0;
+  }
 }
 
 button, .button {

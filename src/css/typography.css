@@ -51,6 +51,7 @@ h2 {
   font-weight: 400;
   letter-spacing: 0.05em;
   line-height: 1;
+  margin-bottom: 0.75rem;
 
   @media (--small-viewport) {
     font-size: 24px;
@@ -123,6 +124,16 @@ small {
 
   @media (--small-viewport) {
     font-size: 22px;
+  }
+}
+
+main {
+  & ol, & ul {
+    padding: 0 0 0 21px;
+  }
+
+  & ul {
+    list-style: square;
   }
 }
 
