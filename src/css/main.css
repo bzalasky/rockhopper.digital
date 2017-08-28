@@ -108,7 +108,7 @@ header {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  height: 126px;
+  height: auto;
   justify-content: flex-end;
   margin-bottom: 16px;
 
@@ -119,10 +119,6 @@ header {
 
   & h1 {
     margin-bottom: 0.5rem;
-  }
-
-  @media(--small-viewport) {
-    height: 84px;
   }
 }
 
