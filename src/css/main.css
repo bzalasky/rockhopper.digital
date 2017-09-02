@@ -111,6 +111,7 @@ header {
   height: auto;
   justify-content: flex-end;
   margin-bottom: 16px;
+  margin-top: 3.5rem;
 
   &.logo-container {
     align-items: center;
@@ -293,12 +294,15 @@ footer {
   background: rgba(var(--cream-200), 0.5);
   color: var(--cream-025);
   display: flex;
-  margin: 4.5rem auto 0;
+  height: 72px;
+  margin-top: 3.5rem;
   width: 100%;
 
   & .container {
+    align-items: center;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
   }
 
   & small {
