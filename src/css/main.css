@@ -24,7 +24,7 @@ main {
   flex: 1;
 
   & a {
-    color: var(--pink-100);
+    color: var(--font-color);
   }
 }
 
@@ -166,8 +166,19 @@ nav {
   }
 
   & a {
+    border: none;
+    border-color: var(--cream-200);
+    box-shadow: none;
     color: var(--cream-025);
     font-size: 22px;
+
+    &:hover {
+      background: transparent;
+    }
+
+    &:visited {
+      color: var(--cream-025);
+    }
 
     &:focus {
       outline: 0;
@@ -196,6 +207,10 @@ nav {
 
   & h2 {
     margin: 0.5rem 0;
+
+    & a {
+      color: var(--red-500);
+    }
   }
 }
 

@@ -77,7 +77,7 @@ impact on the end result. This does not negate the importance of aesthetics,
 rather it means that it should not given a blank check.&rdquo; </blockquote>
 
 *No blank checks* doesn't mean letting the engineering team make all the
-decisions, it means regardless of your role, embrace an engineers mindset. One
+decisions, it means regardless of your role, embrace an engineer's mindset. One
 reason why [VCs are insistent on startups having technical
 founders](http://allthingsd.com/20130305/seven-more-questions-for-andreessen-horowitz-enterprise-dude-peter-levine/?mod=tweet)
 is their ability to assess the implications of conceptual design. Think

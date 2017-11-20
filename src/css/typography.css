@@ -1,7 +1,7 @@
 @import 'variables.css';
 
 ::selection {
-  background: var(--gray-600);
+  background-color: rgba(var(--cream-100), 0.3);
 }
 
 /**
@@ -75,13 +75,17 @@ p + p, ol + p, .indent {
 }
 
 a {
-  border-color: var(--cream-200);
-  color: var(--red-100);
+  border-bottom: 3px solid var(--cream-200);
   text-decoration: none;
   transition: all var(--base-duration) var(--base-timing);
+
+  &:visited {
+    color: var(--font-color);
+  }
 }
 
 a:hover {
+  background-color: rgba(var(--cream-100), 0.3);
   box-shadow: inset 0 -2px 0 var(--cream-100);
   border-bottom: 1px solid var(--cream-100);
 }
@@ -117,10 +121,6 @@ small {
   font-weight: 600;
   line-height: 1.45;
   margin-bottom: 0.25rem;
-
-  & a {
-    color: var(--red-200);
-  }
 
   & span {
     color: var(--pink-300);
