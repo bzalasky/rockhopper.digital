@@ -1,5 +1,5 @@
 +++ 
-date = "2017-08-26T13:05:39-04:00" 
+date = "2018-01-07T13:05:39-04:00" 
 subtitle = "There are at least four ways to build a product nobody wants." 
 tags = [] 
 title = "Empiricism in Product Development"

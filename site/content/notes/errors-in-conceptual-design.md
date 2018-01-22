@@ -1,5 +1,5 @@
 +++
-date = "2017-08-26T22:42:32-04:00"
+date = "2018-01-14T22:42:32-04:00"
 subtitle = "To unravel how technical design is intertwined with economic and aesthetic objectives, look to past failures."
 tags = []
 title = "Errors in Conceptual Design"
