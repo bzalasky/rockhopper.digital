@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rockhopper Digital · Software Development and Product Consultancy</title>
+    <link>/</link>
+    <description>Recent content on Rockhopper Digital · Software Development and Product Consultancy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2018 22:42:32 -0400</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Errors in Conceptual Design</title>
+      <link>/notes/errors-in-conceptual-design/</link>
+      <pubDate>Sun, 14 Jan 2018 22:42:32 -0400</pubDate>
+      
+      <guid>/notes/errors-in-conceptual-design/</guid>
+      <description>To unravel how technical design is intertwined with economic and aesthetic objectives, look to past failures. Learning from the Poor Judgment of Paconius In &amp;ldquo;Design Paradigms: Case Histories of Error and Judgment in Engineering,&amp;rdquo; Henry Petroski details several civil engineering failures throughout history. The text also includes candid analysis of the reasoning that led to each failure. Petroski begins his discussion of errors in conceptual design with the story of Paconius and the Pedestal of Apollo.</description>
+    </item>
+    
+    <item>
+      <title>Empiricism in Product Development</title>
+      <link>/notes/empiricism-in-product-development/</link>
+      <pubDate>Sun, 07 Jan 2018 13:05:39 -0400</pubDate>
+      
+      <guid>/notes/empiricism-in-product-development/</guid>
+      <description>Francis Bacon wrote about idols of the mind, with regard to scientific inquiry. With a nod to empiricism, here are four ways to build a product nobody wants. Rely on preconceived assumptions Questions are one of the best tools for avoiding unwarranted assumptions. Paul Graham suggests, &amp;ldquo;the initial idea is just a starting point&amp;mdash;not a blueprint, but a question.&amp;rdquo; A fresh perspective is invaluable when entering a domain that&amp;rsquo;s ripe for disruption.</description>
+    </item>
+    
+    <item>
+      <title>Methods</title>
+      <link>/methods/</link>
+      <pubDate>Sun, 03 Sep 2017 21:29:15 -0400</pubDate>
+      
+      <guid>/methods/</guid>
+      <description>Explore When I start a new project, I explore its domain with both a user focus and a market focus. What are the problems and processes that define your product? What trends are shaping the boundaries of its domain? My primary goal during this phase is to discover questions that cut through assumptions, expose and analyze risk, and most importantly, reveal your project&amp;rsquo;s actual requirements and constraints.
+Design Content and data are fundamental to my design process.</description>
+    </item>
+    
+  </channel>
+</rss>

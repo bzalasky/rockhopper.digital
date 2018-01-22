@@ -18,7 +18,7 @@ gulp.task('hugo-dev', (cb) => {
 });
 
 gulp.task('hugo', (cb) => {
-  buildSite(cb, 'hugo_0.18');
+  buildSite(cb, 'hugo');
 });
 
 gulp.task('hugo-preview', (cb) => buildSite(cb, 'hugo' ['--buildDrafts', '--buildFuture']));

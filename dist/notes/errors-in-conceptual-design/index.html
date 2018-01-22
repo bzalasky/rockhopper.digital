@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Rockhopper Digital &middot; Software Development and Product Consultancy</title>
+    <meta content='Rockhopper Digital is a product consultancy that crafts web & mobile software.' name='description'>
+    <meta content='width=device-width' name='viewport'>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link href="/img/favicon.png" rel="icon" type="image/png" />
+    <script src="https://use.typekit.net/nxz6cvv.js"></script>
+    <script>try{Typekit.load({async: true});}catch(e){}</script>
+  </head>
+  <body>
+
+<header class="single" >
+  <nav>
+  <div class="container nav-container">
+    <a class="nav-icon" href="/">
+      <img alt="Rockhopper Digital" src="/img/favicon.png"/>
+    </a>
+    <ul class="default-viewport-nav">
+      <li>
+        <a class="small-caps" href="/methods">Methods</a>
+      </li>
+      <li>
+        <span class="dot">&middot;</span>
+      </li>
+      <li>
+        <a class="small-caps" href="/notes">Notes</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+</header>
+<div class="container hero-container">
+  <h1>
+     Errors in Conceptual Design 
+  </h1>
+
+  <small class="sub-header">
+    January 2018 · 3 minute read
+  </small>
+</div>
+<main>
+  <section>
+    <div class="container content-container">
+      <p class="lede">
+To unravel how technical design is intertwined with economic and aesthetic
+objectives, look to past failures.
+</p>
+
+<h2>Learning from the Poor Judgment of Paconius</h2>
+
+<p>In &ldquo;<a href="https://www.goodreads.com/book/show/16247.Design_Paradigms">Design
+Paradigms</a>: Case Histories of Error and Judgment in Engineering,&rdquo; Henry
+Petroski details several civil engineering failures throughout history. The text
+also includes candid analysis of the reasoning that led to each failure.
+Petroski begins his discussion of errors in conceptual design with the story of
+<a href="http://www.kuhf.org/programaudio/engines/eng1101_64k.m3u">Paconius and the Pedestal of
+Apollo</a>.</p>
+
+<p>Let&rsquo;s explore how this civil engineering lesson can be applied to the design and
+development of software. If you&rsquo;re not familiar with the story, listen to the
+radio program linked above or read <a href="http://www.uh.edu/engines/epi1101.htm">this
+transcript</a>.</p>
+
+<p>Paconius sought an innovative solution to moving a massive pedestal from a
+quarry to the building site at the temple of Apollo at Selinous. The factors
+that contributed to his design appear to be primarily economic and aesthetic in
+hindsight. His solution, rather like a spool unwinding from the top, was
+apparently easier to construct, and allowed for heavier loads to be pulled with
+fewer oxen. Moreover, in contrast to the standard wooden frame solution,
+Paconius&rsquo; innovation required no holes to be drilled in either end of the
+pedestal (to be fitted with iron and lead inserts). The spool approach also kept
+the pedestal more protected from the road and elements.</p>
+
+<p>These all seem like big wins. Therein lies the problem, it&rsquo;s a trap, and a
+seductive one at that. There are two fundamental flaws with Paconius&rsquo; spool:</p>
+
+<ol class="tabular-figures">
+  <li>
+    As the oxen pull the spool forward, they distance themselves equally from the
+   spool.
+  </li>
+  <li>
+    After the rope runs out, you have to set the whole damn thing back up.
+  </li>
+</ol>
+
+<p class="no-indent">
+  As the oxen distanced themselves from the spool, it became less stable and was
+  prone to running off the road, undercutting the economic efficiency of using
+  fewer oxen. The problem of scaling the solution over long distances made things
+  even worse for Paconius. He ended up in financial ruin.
+</p>
+
+<h2>The Folly of Competing Objectives</h2>
+
+<p>Every consumer facing software project has economic and aesthetic objectives
+that are weighted to varying degrees. How do we balance these aims with
+technical design?</p>
+
+<p>There are clearly many <a href="http://en.wikipedia.org/wiki/Anti-pattern">examples of software projects run off
+course</a>, similar to Paconius&rsquo; failed
+endeavour. However, I&rsquo;m going to focus on how technical, economic and aesthetic
+objectives can be acheived harmoniously per an article I read on &ldquo;<a href="http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/">Designing for
+Performance</a>,&rdquo;
+by <a href="https://twitter.com/somerandomdude">P.J. Onori</a>.</p>
+
+<blockquote
+cite="http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/">
+&ldquo;Designing for performance requires a commitment to maximize the
+necessities and strip out superfluous luxuries. A more utilitarian approach
+towards design is needed where each element has a tangible and net-positive
+impact on the end result. This does not negate the importance of aesthetics,
+rather it means that it should not given a blank check.&rdquo; </blockquote>
+
+<p><em>No blank checks</em> doesn&rsquo;t mean letting the engineering team make all the
+decisions, it means regardless of your role, embrace an engineer&rsquo;s mindset. One
+reason why <a href="http://allthingsd.com/20130305/seven-more-questions-for-andreessen-horowitz-enterprise-dude-peter-levine/?mod=tweet">VCs are insistent on startups having technical
+founders</a>
+is their ability to assess the implications of conceptual design. Think
+carefully about how early design decisions impact technical architecture and
+performance. At the end of the day, we&rsquo;re all trying to solve problems, and this
+leads into my favorite part of P.J.&rsquo;s article:</p>
+
+<blockquote
+cite="http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/">
+&ldquo;…aesthetics should always support the problems we are asked to solve….
+Looking at design through this lens will help create a goal-driven approach and
+focus our thinking.&rdquo; </blockquote>
+
+<h2>In Summary</h2>
+
+<p>Goals alone aren&rsquo;t enough to keep a project on track. To spare future
+generations the humor of reading about your own spectacular failures:</p>
+
+<ul>
+<li>Recognize competing objectives and resolve them as early as possible.</li>
+<li>Explore novel problems and potential solutions with users, designers and
+engineers.</li>
+<li>Question and attack your own ideas, but don&rsquo;t stop having them.</li>
+</ul>
+
+    </div>
+  </section>
+</main>
+      <footer>
+        <div class="container footer-container">
+          <small>
+            © 2018 Rockhopper Digital LLC
+          </small>
+        </div>
+      </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
+
