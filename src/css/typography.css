@@ -1,4 +1,5 @@
 @import 'variables.css';
+@import url('https://use.typekit.net/nxz6cvv.css');
 
 ::selection {
   background-color: rgba(var(--cream-100), 0.3);
