@@ -22,13 +22,13 @@ captured and translated into user stories and design problems. Copy needs to be
 written. Data dependencies need to be documented. Tradeoffs need to be
 discovered and prioritized.
 
-After all that, I'll sketch out ideas within a design system, progressing from
+After all that, I’ll sketch out ideas within a design system, progressing from
 an abstract catalog of base elements towards concrete layouts, components and
 features.
 
 <h2>Build</h2>
 
-Designs and specifications aren't infallible. They frequently require changes
+Designs and specifications aren’t infallible. They frequently require changes
 during the course development. Identifying all functional and nonfunctional
 requirements before development begins is nearly impossible. Because of this, my
 approach to building software products is adaptive.
@@ -40,12 +40,13 @@ constraints and opportunities.
 
 <h2>Iterate</h2>
 
-Software is never finished, but projects end. They're measured against business
+Software is never finished, but projects end. They’re measured against business
 goals and user expectations. Deliverables, dates and budgets. The tail end of a
 project is an ideal time to empirically validate any assumptions we've made
 about your product and its place in the world. Experience gained during the
 design and development phases of the project, and insights gleaned from
-customers in the field, should inform future efforts. See the world as it is,
-and ask a smarter question.
+customers in the field, should inform future efforts. 
+
+See the world as it is, and ask a smarter question.
  
 
